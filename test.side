@@ -1,0 +1,82 @@
+{
+  "id": "7608dbaa-e023-4fd7-b57e-cdd8498204c9",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "3a81c69a-f8eb-47fe-a91c-d3c3abc96271",
+    "name": "1",
+    "commands": [{
+      "id": "85caeff6-c102-40da-a42c-d2d4701bfb78",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03c8af36-d05c-4108-b6c6-ed5156b9b26f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76b2f82e-1f33-4def-8b72-0b2d78d855cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c75f04ec-e58e-48c9-a6d4-bb3c7aec044c",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "hola"
+    }, {
+      "id": "a9c1a74b-40ad-41ad-8c54-30056f6b9dd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > div:nth-child(1)",
+      "targets": [
+        ["css=form > div:nth-child(1)", "css:finder"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df7a7d9b-954f-487e-a5a5-9af4bb83a2c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c9feb371-e1bf-4e59-9d5d-0c59234e92d9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a81c69a-f8eb-47fe-a91c-d3c3abc96271"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
